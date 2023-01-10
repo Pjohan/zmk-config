@@ -9,7 +9,11 @@
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/ext_power.h>
 #include <dt-bindings/zmk/backlight.h>
-
+/ {
+    chosen {
+        zmk,backlight = &backlight;
+    };
+}:
 / {
 	keymap {
 		compatible = "zmk,keymap";
