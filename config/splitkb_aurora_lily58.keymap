@@ -28,7 +28,6 @@ backlight: pwmleds {
     pwm_led_2 {
         pwms = <&pwm0 47>; /* LED 2 */
     };
-    ...
 };
 
 &spi1 {
