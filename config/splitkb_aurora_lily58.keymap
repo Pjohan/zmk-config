@@ -11,6 +11,9 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
+	chosen {
+        zmk,backlight = &backlight;
+    };
 	keymap {
 		compatible = "zmk,keymap";
 
@@ -68,8 +71,4 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
 	};
-	/ {
-    chosen {
-        zmk,backlight = &backlight;
-    };
 };
