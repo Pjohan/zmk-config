@@ -3,12 +3,7 @@
  *
  * SPDX-License-Identifier: MIT
  */
-{
-   chosen {
-      zmk,underglow = &led_strip;
-	  zmk,backlight = &backlight;
-   };
-};
+
 
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/keys.h>
@@ -17,6 +12,10 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
+   chosen {
+      zmk,underglow = &led_strip;
+	  zmk,backlight = &backlight;
+   };
 	keymap {
 		compatible = "zmk,keymap";
 
