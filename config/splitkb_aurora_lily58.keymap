@@ -11,6 +11,12 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
+    chosen {
+        zmk,backlight = &backlight;
+    };
+}:
+
+/ {
 	keymap {
 		compatible = "zmk,keymap";
 
