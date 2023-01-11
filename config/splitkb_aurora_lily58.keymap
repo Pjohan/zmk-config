@@ -12,12 +12,9 @@
 #include <dt-bindings/zmk/backlight.h>
 
 / {
-<<<<<<< HEAD
-=======
    chosen {
       zmk,underglow = &led_strip;
    };
->>>>>>> 9b5ad24790479bcfd5b13341d5a3d2ab63e5944c
 	keymap {
 		compatible = "zmk,keymap";
 
