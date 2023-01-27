@@ -17,14 +17,9 @@
 		compatible = "zmk,keymap";
 
 		default_layer {
-// ---------------------------------------------------------------------------------------------------------------------------------
-// |  ESC  |  Q  |  W  |  E   |  R   |  T   |                                          |  Y   |  U    |  I    |  O   |   P   |   \  |
-// |  TAB  |  A  |  S  |  D   |  F   |  G   |                                          |  H   |  J    |  K    |  L   |   ;   |   '  |
-// | SHIFT |  Z  |  X  |  C   |  V   |  B   | L SHIFT | L SHIFT |  | L SHIFT | L SHIFT |  N   |  M    |  ,    |  .   |   /   | CTRL |
-//                     | GUI  | DEL  | RET  |  SPACE  |   ESC   |  |   RET   |  SPACE  | TAB  | BSPC  | R-ALT |
 			bindings = <
 	&kp SEMI  &kp COMMA &kp DOT &kp P &kp Y &kp F                                         	 &kp G &kp C  &kp R     &kp L   &kp SLASH &kp CARET
-	&kp LCTRL &kp O &kp E &kp U &kp I &kp D                                            		 &kp H &kp T  &kp N     &kp S   &kp MINUS &kp PIPE
+	&kp LCTRL &kp A &kp O &kp E &kp U &kp I                                            		 &kp D &kp H  &kp T     &kp N   &kp S &kp MINUS
 	&kp LSHFT &kp SQT &kp Q &kp J &kp K &kp X &kp LSHFT  &kp ESC         &kp LSHFT &kp LSHFT &kp B &kp M  &kp W &kp V &kp Z &kp TAB
 	                 &kp LGUI &kp LALT &kp DEL &kp SPACE &mo LOWER       &mo RAISE &kp RET &kp BSPC &kp BSPC &kp RALT
 			>;
