@@ -11,7 +11,6 @@
 #define LOWER   1
 #define RAISE   2
 #define qwerty  3
-#define gaming  4
 
 / {
 	keymap {
