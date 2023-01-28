@@ -39,19 +39,19 @@
 
 		raise {
 			bindings = <
-	&kp ESC   &tog QWERTY &tog DEFAULT &tog GAMING &kp N4 &kp N5                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
-	&kp TAB   &kp LPAR &kp RPAR &kp PIPE  &kp LBKT &kp RBKT                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+	&kp ESC   &tog QWERTY &tog DEFAULT &tog GAMING &kp N4 &kp N5                           &kp HOME &kp END  &kp PG_UP &kp PG_DN   &kp N0    &kp BSLH
+	&kp TAB   &kp LPAR &kp RPAR &kp PIPE  &kp LBKT &kp RBKT                                &kp LEFT &kp DOWN &kp UP    &kp RIGHT   &kp SEMI &kp SQT
 	&kp LSHFT &kp LBRC &kp RBRC &kp COLON &kp V    &kp B  &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
 	                 &kp LGUI &kp LALT &kp DEL &kp SPACE &mo LOWER       &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 		};
-		
+
 		gaming {
 			bindings = <
 	&kp ESC   &kp M  	&kp N1 &kp N2 &kp N3 &kp N4                                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
 	&kp TAB   &kp A 	&kp Q  &kp W &kp E &kp R                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
 	&kp LSHFT &kp LCTRL &kp A  &kp S &kp D &kp F &kp LSHFT &tog GAMING        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
-	                 &kp M &kp X &kp C &kp SPACE &kp V       &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
+	                 &kp M &kp X &kp C &kp SPACE &kp V                        &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 		};
 
@@ -64,7 +64,7 @@
 			bindings = <
 	&kp ESC   &kp Q &kp W &kp E &kp R &kp T                                                 &kp Y 	 &kp U  	&kp I     &kp O   &kp P    &kp BSLH
 	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                 &kp H	 &kp J  	&kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT  &kp N 	 &kp M  	&kp COMMA &kp DOT &kp FSLH &kp RCTRL
+	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &tog DEFAULT       &kp LSHFT &kp LSHFT  &kp N 	 &kp M  	&kp COMMA &kp DOT &kp FSLH &kp RCTRL
 	                 &kp LGUI &kp LALT &kp DEL &kp SPACE &mo LOWER       &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 
