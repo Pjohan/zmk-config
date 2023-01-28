@@ -10,8 +10,8 @@
 #define DEFAULT 0
 #define LOWER   1
 #define RAISE   2
-#define gaming  3
-#define qwerty  4
+#define GAMING  3
+#define QWERTY  4
 
 / {
 	keymap {
@@ -38,7 +38,7 @@
 		};
 		raise {
 			bindings = <
-	&kp ESC   &tog qwerty  &kp N2 &kp N3 &kp N4 &kp N5                                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
+	&kp ESC   &tog QWERTY &tog DEFAULT &tog GAMING &kp N4 &kp N5                                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
 	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
 	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
 	                 &kp LGUI &kp LALT &kp DEL &kp SPACE &mo LOWER       &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
@@ -46,9 +46,9 @@
 		};
 		gaming {
 			bindings = <
-	&kp ESC   &tog qwerty  &kp N2 &kp N3 &kp N4 &kp N5                                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
-	&kp TAB   &kp A &kp S &kp D &kp F &kp G                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp Z &kp X &kp C &kp V &kp B &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
+	&kp ESC   &kp M  	&kp N1 &kp N2 &kp N3 &kp N4                                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
+	&kp TAB   &kp A 	&kp Q  &kp W &kp E &kp R                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
+	&kp LSHFT &kp LCTRL &kp A  &kp S &kp D &kp F &kp LSHFT &kp LSHFT        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
 	                 &kp LGUI &kp LALT &kp DEL &kp SPACE &mo LOWER       &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 		};
