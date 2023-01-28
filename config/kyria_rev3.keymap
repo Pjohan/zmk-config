@@ -50,8 +50,8 @@
 			bindings = <
 	&kp ESC   &kp TAB  	 &kp Q &kp W &kp E &kp R                                           &kp N6 &kp N7  &kp N8  &kp N9   &kp N0    &kp BSLH
 	&kp TAB   &kp LSHIFT &kp A &kp S &kp D &kp F                                                &kp H &kp J  &kp K     &kp L   &kp SEMI &kp SQT
-	&kp LSHFT &kp LCTRL  &kp z &kp X &kp C &kp V &kp LSHFT &tog GAMING        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
-	                 &kp LGUI  &kp G &kp M &kp SPACE &kp B                        &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
+	&kp LSHFT &kp LCTRL  &kp Z &kp X &kp C &kp V &kp LSHFT &tog GAMING        &kp LSHFT &kp LSHFT &kp N &kp M  &kp COMMA &kp DOT &kp FSLH &kp RCTRL
+	                     &kp LGUI &kp G &kp M &kp SPACE &kp B                 &mo RAISE &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 		};
 
