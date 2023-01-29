@@ -26,7 +26,7 @@
 
 		symbol {
 			bindings = <
-	&kp TAB   &kp N1 	&kp N2 		&kp N3 		&kp N3 		&kp N5                                            			&kp N6 		&kp N7  	&kp N8 		&kp N9 		&kp N0		&kp GRAVE
+	&kp TAB   &kp N1 	&kp N2 		&kp N3 		&kp N4 		&kp N5                                            			&kp N6 		&kp N7  	&kp N8 		&kp N9 		&kp N0		&kp GRAVE
 	&kp LSHFT &kp LBKT 	&kp LBRC 	&kp PIPE 	&kp RBRC 	&kp RBKT                                 		 			&kp H 		&kp J  		&kp K 		&kp L 		&kp SEMI 	&kp TILDE
 	&kp LCTRL &kp Z 	&kp X 		&kp C 		&kp V 		&kp B 		&kp LSHFT   &kp ESC   		&kp LSHFT &kp LSHFT &kp N 		&kp M 		&kp COMMA 	&kp PERIOD 	&kp BSLH 	&kp RCTRL
 									&kp LGUI 	&kp LALT 	&kp DEL 	&kp SPACE &mo SYMBOL    	&mo RET	  &kp RET   &kp BSPC 	&kp RALT 	&kp RCTRL
