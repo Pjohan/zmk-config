@@ -19,7 +19,7 @@
 	&kp TAB   &kp Q 	&kp W 		&kp E 		&kp R 		&kp T                                                		&kp Y 		&kp U  		&kp I 		&kp O 		&kp P		&kp SQT
 	&kp LSHFT &kp A 	&kp S 		&kp D 		&kp F 		&kp G                                                		&kp H 		&kp J  		&kp K 		&kp L 		&kp SEMI 	&kp MINUS
 	&kp LCTRL &kp Z 	&kp X 		&kp C 		&kp V 		&kp B 		&kp LSHFT   &kp ESC         &kp LSHFT &kp LSHFT &kp N 		&kp M 		&kp COMMA 	&kp PERIOD 	&kp SLASH 	&kp RCTRL
-									&kp LGUI 	&kp LALT 	&kp DEL 	&kp SPACE &mo SYMBOL    	&mo RET	  &kp RET   &kp BSPC 	&kp RALT 	&kp RCTRL
+									&kp LGUI 	&kp LALT 	&kp DEL 	&kp SPACE 	&mo SYMBOL    	&kp RET	  &kp RET   &kp BSPC 	&kp RALT 	&kp RCTRL
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
 		};
@@ -29,7 +29,7 @@
 	&kp TAB   &kp N1 	&kp N2 		&kp N3 		&kp N4 		&kp N5                                            			&kp N6 		&kp N7  	&kp N8 		&kp N9 		&kp N0		&kp GRAVE
 	&kp LSHFT &kp LBKT 	&kp LBRC 	&kp PIPE 	&kp RBRC 	&kp RBKT                                 		 			&kp H 		&kp J  		&kp K 		&kp L 		&kp SEMI 	&kp TILDE
 	&kp LCTRL &kp Z 	&kp X 		&kp C 		&kp V 		&kp B 		&kp LSHFT &bt BT_CLR   		&kp LSHFT &kp LSHFT &kp N 		&kp M 		&kp COMMA 	&kp PERIOD 	&kp BSLH 	&kp RCTRL
-									&kp LGUI 	&kp LALT 	&kp DEL 	&kp SPACE &mo SYMBOL    	&mo RET	  &kp RET   &kp BSPC 	&kp RALT 	&kp RCTRL
+									&kp LGUI 	&kp LALT 	&kp DEL 	&kp SPACE &mo SYMBOL    	&kp RET	  &kp RET   &kp BSPC 	&kp RALT 	&kp RCTRL
 			>;
 		};
 	};
