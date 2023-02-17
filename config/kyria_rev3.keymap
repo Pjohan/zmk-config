@@ -28,6 +28,7 @@
 / {
 	keymap {
 		compatible = "zmk,keymap";
+		&left_encoder   { resolution = <2>; };
 
 		default_layer {
 			bindings = <
