@@ -61,19 +61,19 @@
 
 		gaming {
 			bindings = <
-	&kp N1 	&kp TAB 	&kp Q 	&kp W 	&kp E 	&kp R 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
-	&kp N2 	&kp LSHFT 	&kp A 	&kp S 	&kp D 	&kp F 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
-	&kp N3 	&kp LCTRL 	&kp Z 	&kp X 	&kp C 	&kp V 	&trans 	&trans						&trans &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
-							&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
+	&kp N1 	&kp TAB 	&kp Q 	&kp W 	&kp E 	&kp R 															&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&kp N2 	&kp LSHFT 	&kp A 	&kp S 	&kp D 	&kp F 															&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&kp N3 	&kp LCTRL 	&kp Z 	&kp X 	&kp C 	&kp V 	&kp M 	&kp ESC						&tog GAMING &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+							&kp LGUI 	&kp LALT 	&kp G &kp SPACE &mo NUMBERS 			&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
 		modifiers {
 			bindings = <
-	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
-	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
-	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans						&trans &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&bt BT_CLR 	&bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 							&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&tog GAMING &trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&trans 		&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans						&trans &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
 							&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
