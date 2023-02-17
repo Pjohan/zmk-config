@@ -29,7 +29,46 @@
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
 		};
 
-		
+
+		move {
+			bindings = <
+	&trans 	&trans 	&trans 		&kp UP 		&trans 		&trans 														&kp HOME 	&kp END		&kp PG_UP 	&kp PG_DN 	&trans 	&trans
+	&trans 	&trans 	&kp LEFT 	&KP DOWN 	&kp RIGHT 	&trans 														&kp LEFT 	&kp DOWN 	&kp UP 		&KP Down 	&trans 	&trans
+	&trans 	&trans 	&trans 		&trans 		&trans 		&trans 	&kp LBRC &trans						&trans &kp RBRC	&trans 		&trans 		&trans 		&trans 		&trans 	&trans
+								&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
+			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+		};
+
+		gaming {
+			bindings = <
+	&kp N1 	&kp TAB 	&kp Q 	&kp W 	&kp E 	&kp R 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&kp N2 	&kp LSHFT 	&kp A 	&kp S 	&kp D 	&kp F 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&kp N3 	&kp LCTRL 	&kp Z 	&kp X 	&kp C 	&kp V 	&trans 	&trans						&trans &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+							&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
+			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+		};
+
+		modifiers {
+			bindings = <
+	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans						&trans &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+							&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
+			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+		};
+
+		nothing {
+			bindings = <
+	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 														&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans						&trans &trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&trans
+							&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
+			>;
+			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
+		};
 
 	};
 };
