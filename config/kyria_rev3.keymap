@@ -18,6 +18,13 @@
 / {
 	keymap {
 		compatible = "zmk,keymap";
+		
+		conditional_layers {
+        compatible = "zmk,conditional-layers";
+        tri_layer {
+            if-layers = <NUMBERS MOVE>;
+            then-layer = <MODIFIERS>;
+        };
 
 		default_layer {
 			bindings = <
@@ -41,9 +48,9 @@
 
 		move {
 			bindings = <
-	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 																&kp HOME 	&kp END 	&kp PG_UP 	&kp PG_DN 	&trans 	&trans
-	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 																&kp LEFT 	&kp DOWN 	&kp UP 		&kp RIGHT 	&trans 	&trans
-	&trans 	&trans 	&trans 	&trans 	&trans 	&trans 	&kp LBRC 	&trans						&trans &kp RBRC 	&trans 		&trans 	&trans 	&trans 	&trans 	&trans
+	&trans 	&trans 		&kp UP 		&trans 		&trans 	&trans 																&kp HOME 	&kp END 	&kp PG_UP 	&kp PG_DN 	&trans 	&trans
+	&trans 	&kp LEFT 	&kp DOWN 	&kp RIGHT 	&trans 	&trans 																&kp LEFT 	&kp DOWN 	&kp UP 		&kp RIGHT 	&trans 	&trans
+	&trans 	&trans 		&trans 		&trans 		&trans 	&trans 	&kp LBRC 	&trans						&trans &kp RBRC 	&trans 		&trans 		&trans 		&trans 		&trans 	&trans
 							&kp LGUI 	&kp LALT 	&kp DEL &kp SPACE &mo NUMBERS 		&kp RET &kp RET &kp BSPC &kp RALT &kp RCTRL
 			>;
 			sensor-bindings = <&inc_dec_kp C_VOL_DN C_VOL_UP>;
